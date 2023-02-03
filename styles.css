@@ -2,16 +2,33 @@
     background-color: #F4EEE2;
     box-sizing: border-box;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
-body {
+html {
     font-family: 'GFS Didot', serif;
 }
 
-.logo {
-    display: inline-block;
-			img {
-				width: 100px;
-				height: 80px;
+.index-images1 {
+    position: absolute;
+width: 419px;
+height: 629px;
+left: 35px;
+top: 312px;
 }
+
+.index-images2 {
+    position: absolute;
+width: 459px;
+height: 629px;
+left: 464px;
+top: 312px;
+}
+
+.index-images3 {
+    position: absolute;
+width: 471px;
+height: 629px;
+left: 933px;
+top: 312px;
 }
