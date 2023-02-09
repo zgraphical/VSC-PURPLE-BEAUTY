@@ -32,3 +32,28 @@ height: 629px;
 left: 933px;
 top: 312px;
 }
+
+.hero-content {
+    position: absolute;
+width: 1175px;
+height: 161px;
+left: 132px;
+top: 1382px;
+
+font-family: 'GFS Didot';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+
+color: #000000;
+}
+
+.booking-button {
+    position: absolute;
+width: 199px;
+height: 55px;
+left: 620px;
+top: 1591px;
+}
