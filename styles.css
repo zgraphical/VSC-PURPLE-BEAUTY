@@ -13,6 +13,10 @@ body {
 	background-color: #F4EEE2;
 }
 
+a:visited, a:link {
+    color: #000000;
+}
+
 /* Navigation */
 
 .nav-container {
@@ -42,6 +46,14 @@ font-weight: 400;
 font-size: 20px;
 line-height: 24px;
 text-align: center;
+}
+
+.nav-items {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #000000;
 }
 
 .logo {
