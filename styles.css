@@ -56,6 +56,38 @@ font-size: 20px;
 color: #000000;
 }
 
+.navbar-links {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+
+    transition: all 0.3s ease;
+}
+
+.navbar-links:hover {
+    color: purple;
+	transition: all 0.3s ease;
+}
+
+li::after {
+	content: '';
+	width: 0;
+	height: 3px;
+	background-color: #000000;
+	margin: auto;
+	display: block;
+	transition: 0.4s;
+}
+
+li:hover::after {
+	width: 100%;
+	transition: width 0.4s linear;
+}
+
+
 .logo {
     padding: 15px;
     align-items: center;
@@ -63,15 +95,38 @@ color: #000000;
 
 /* Hero Section */
 
-.index-image1 {
+.gallery-container {
+	width: 100%;
+	padding: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
+	.image-gallery {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 16px;
+		padding-bottom: 120px;
+
+		section {
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+		}
+    }
 }
 
-.index-image2 {
-
+.photo-grid {
+	width: 100%;
+	height: auto;
 }
 
-.index-image3 {
-
+@media screen and (max-width: 960px) {
+	.gallery-container {
+		.image-gallery {
+			grid-template-columns: 1fr;
+		}
+	}
 }
+
 
