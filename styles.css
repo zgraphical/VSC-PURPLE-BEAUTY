@@ -75,7 +75,7 @@ color: #000000;
 li::after {
 	content: '';
 	width: 0;
-	height: 3px;
+	height: 1px;
 	background-color: #000000;
 	margin: auto;
 	display: block;
