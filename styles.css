@@ -170,6 +170,10 @@ transition-property: box-shadow, transform;
 	letter-spacing: 5px;
 }
 
+.icon {
+	cursor: pointer;
+}
+
 .footer {
 	text-align: center;
 	padding-top: 20px;
