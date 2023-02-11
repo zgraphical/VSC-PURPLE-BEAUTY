@@ -150,16 +150,28 @@ li:hover::after {
 
 .hero-text1 {
     font-family: 'GFS Didot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+padding-top: 250px;
+}
+
+.hero-text2 {
+    font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 96px;
-line-height: 120px;
-/* identical to box height */
-
-text-align: center;
+font-size: 20px;
+line-height: 24px;
 
 color: #000000;
-padding-top: 250px;
+text-align: center;
+padding-top: 50px;
 }
 
 /* Footer */
