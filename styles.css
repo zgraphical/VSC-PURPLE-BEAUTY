@@ -49,7 +49,7 @@ text-align: center;
 }
 
 .nav-items {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -176,14 +176,14 @@ transition-property: box-shadow, transform;
 
 .footer {
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 10px;
 }
 
 .footer-text {
 	font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 12px;
 line-height: 24px;
 
 color: #000000;
