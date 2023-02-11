@@ -139,8 +139,8 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 24px;
-width: 160px;
-padding: 20px;
+width: 180px;
+padding: 10px;
 cursor: pointer;
 text-align: center;
 text-decoration: none;
@@ -151,10 +151,37 @@ transition-duration: 0.3s;
 transition-property: box-shadow, transform;
 }
 
+#btn-container {
+	text-align: center;
+	padding-top: 20px;
+}
+
 .hero-btn:hover, .hero-btn:focus, .hero-btn:active{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
+/* Footer */
+
+.social-icons {
+	text-align: center;
+	padding-top: 20px;
+	letter-spacing: 5px;
+}
+
+.footer {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.footer-text {
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
 
