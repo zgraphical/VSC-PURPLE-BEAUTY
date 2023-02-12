@@ -72,17 +72,17 @@ color: #000000;
 	transition: all 0.3s ease;
 }
 
-li::after {
+.navbar-links::after {
 	content: '';
 	width: 0;
-	height: 2px;
+	height: 1px;
 	background-color: #000000;
 	margin: auto;
 	display: block;
 	transition: 0.4s;
 }
 
-li:hover::after {
+.navbar-links:hover::after {
 	width: 100%;
 	transition: width 0.4s linear;
 }
