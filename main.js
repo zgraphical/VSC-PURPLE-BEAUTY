@@ -1,3 +1,5 @@
+/*Mobile Menu JS*/ 
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-items");
 
@@ -11,6 +13,8 @@ document.querySelectorAll(".navbar-links").forEach(n => n.
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
   }))
+
+/*Back To Top JS*/ 
 
   const toTop = document.querySelector(".to-top");
 
