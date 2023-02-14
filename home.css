@@ -96,6 +96,11 @@ color: #000000;
 	cursor: pointer;
 }
 
+.nav-icon {
+	letter-spacing: 10px;
+	font-size:15px;
+}
+
 .hamburger {
 	display: none;
 	cursor: pointer;
