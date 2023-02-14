@@ -99,6 +99,7 @@ color: #000000;
 .nav-icon {
 	letter-spacing: 10px;
 	font-size:15px;
+	cursor: pointer;
 }
 
 .hamburger {
