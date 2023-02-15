@@ -275,6 +275,12 @@ transition-property: box-shadow, transform;
 	opacity:1;
   }
 
+  @media(max-width:960px) {
+	.hero-text {
+		font-size: 30px;
+	}
+  }
+
 /* Footer */
 
 .social-icons {
