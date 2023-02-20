@@ -14,6 +14,12 @@ document.querySelectorAll(".navbar-links").forEach(n => n.
     navMenu.classList.remove("active");
   }))
 
+  /*Telephone Section For Form*/
+
+  window.onload = function() {
+    document.getElementById("phone").focus();
+  }
+
 /*Back To Top JS*/ 
 
   const toTop = document.querySelector(".to-top");
