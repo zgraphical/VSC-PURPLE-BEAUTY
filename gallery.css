@@ -183,6 +183,25 @@ transition-property: box-shadow, transform;
 
 /* Hero Section */
 
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.image {
+	width: 100%;
+	height: 800px;
+	object-fit: cover;
+	object-position: center center;
+}
+
 .hero-text1 {
     font-family: 'GFS Didot';
 font-style: normal;
@@ -237,7 +256,7 @@ padding-top: 250px;
 
 .footer {
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 5px;
 }
 
 .footer-text {
